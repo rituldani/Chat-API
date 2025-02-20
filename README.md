@@ -7,6 +7,7 @@ An interactive chatbot powered by Google Gemini API that provides instant AI-gen
 ✅ Displays chat history with user queries and responses
 ✅ Responsive UI with smooth interactions
 
+
 🛠️ Technologies Used
 React.js (Frontend)
 Google Gemini API (AI Response)
