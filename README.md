@@ -33,3 +33,7 @@ CSS (Styling & Responsiveness)
 2️⃣ Click the Send button (🔼).
 3️⃣ The AI will generate and display the response.
 4️⃣ Previous chats are stored in history.
+
+
+<!-- npm create vite@latest -->
+
