@@ -39,8 +39,8 @@ function App() {
         <div className="chat-history">
           {chatHistory.map((chat, index) => (
             <div key={index}>
-              <pre className="question">You: {chat.question}</pre>
-              <pre className="answer">AI: {chat.answer}</pre>
+              <pre className="question">{chat.question}</pre>
+              <pre className="answer">{chat.answer}</pre>
             </div>
           ))}
         </div>

@@ -5,10 +5,24 @@
 // export default defineConfig({
 //   plugins: [react()],
 // })
+
+
+// import { defineConfig } from 'vite';
+// import react from '@vitejs/plugin-react';
+
+// export default defineConfig({
+//   plugins: [react()],
+//   base: '/Chat-API/', 
+// });
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Chat-API/', // Replace with your repo name
+  base: './', // Important for relative paths
+  build: {
+    outDir: "dist",
+  },
 });
+
