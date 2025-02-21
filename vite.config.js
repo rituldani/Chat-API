@@ -7,22 +7,22 @@
 // })
 
 
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  // plugins: [react()],
+  base: '/Chat-API/', 
+});
+
 // import { defineConfig } from 'vite';
 // import react from '@vitejs/plugin-react';
 
 // export default defineConfig({
 //   plugins: [react()],
-//   base: '/Chat-API/', 
+//   base: './', // Important for relative paths
+//   build: {
+//     outDir: "dist",
+//   },
 // });
-
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-export default defineConfig({
-  plugins: [react()],
-  base: './', // Important for relative paths
-  build: {
-    outDir: "dist",
-  },
-});
 
